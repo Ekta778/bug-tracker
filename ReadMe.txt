@@ -15,10 +15,10 @@ A simple Flask-based web application to manage software bugs and test cases. Ide
 
 🛠 Tech Stack
 
-- **Python 3.x**
-- **Flask** (Micro web framework)
-- **SQLite** (Lightweight relational database)
-- **HTML5 + Jinja2** (Templating engine)
+- Python 3.x
+- Flask (Micro web framework)
+- SQLite (Lightweight relational database)
+- HTML5 + Jinja2 (Templating engine)
 
 ---
 
