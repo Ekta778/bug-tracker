@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bug List</title>
+</head>
+<body>
+    <h1>All Bugs</h1>
+    <a href="/add_bug">Report New Bug</a>
+    <ul>
+        {% for bug in bugs %}
+        <li><strong>{{ bug[1] }}</strong> - {{ bug[5] }} - Assigned to: {{ bug[6] }}</li>
+        {% endfor %}
+    </ul>
+    <a href="/">Back to Dashboard</a>
+</body>
+</html>

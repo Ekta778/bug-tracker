@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test Cases</title>
+</head>
+<body>
+    <h1>All Test Cases</h1>
+    <a href="/add_test_case">Add New Test Case</a>
+    <ul>
+        {% for case in test_cases %}
+        <li><strong>{{ case[1] }}</strong> - {{ case[5] }}</li>
+        {% endfor %}
+    </ul>
+    <a href="/">Back to Dashboard</a>
+</body>
+</html>
