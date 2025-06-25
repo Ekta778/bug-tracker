@@ -1,9 +1,9 @@
-🔞 Bug Tracker & Test Case Management System
+# 🔞 Bug Tracker & Test Case Management System
 
 A simple Flask-based web application to manage software bugs and test cases. Ideal for Software Quality Assurance (SQA) projects, educational demos, or lightweight internal use.
 
 
-🚀 Features
+## 🚀 Features
 
 - 🐛 Add, view, and manage bug reports with severity and assignment
 - ✅ Create and track test cases with steps and expected outcomes
